@@ -33,6 +33,7 @@ export class App extends React.Component {
     const objKey = Object.keys(this.state);
 
     return (
+      <div className="container">
       <>
         <Section title="Please leave feedback">
           <FeedbackOptions
@@ -54,7 +55,8 @@ export class App extends React.Component {
             />
           </Section>
         )}
-      </>
+        </>
+        </div>
     );
   }
 }
